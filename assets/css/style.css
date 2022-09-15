@@ -1,17 +1,19 @@
 :root {
     /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    /* --primary: rgba(43, 91, 186, 0.6);
-    --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    --primary: rgba(43, 87, 219, 0.6);
+    --light: rgb(232, 145, 32);
+    --greyish: rgba(12, 12, 12, 0.895); 
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+    
 }
 
 body {
-    background-color:rgb(14, 13, 13);
+    background-color:rgba(57, 31, 128, 0.334)
+    
 }
 
 a {
@@ -54,7 +56,7 @@ a {
 }
 
 .custom-profile > :last-child {
-    background-color: rgba(68, 106, 182, .5);
+    background-color: rgba(25, 86, 208, 0.5);
 }
 
 .custom-city {
